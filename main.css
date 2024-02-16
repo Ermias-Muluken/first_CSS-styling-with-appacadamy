@@ -1,33 +1,56 @@
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    font-size: 40px;
+    font-family: "Protest Riot";
+    padding: 0.5em 0.5em 0.5em;
+    margin: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: darkred;
+    background-color: rgb(253, 232, 204);
+    text-align: center;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-size: 30px;
+    font-family: "Protest Revolution";
+    padding: 0.5em 0.5em 0.5em;
+    margin: 10px;
+    font-weight: 500;
+    color: goldenrod;
+    background-color: darkslategray;
+    text-align: center;
 }
+#title-one{
+    display: inline-block;
+    box-sizing: content-box; /* Border only around content, not padding */
+    background-color: rgb(214, 82, 82);
+    position: relative;
+    padding-left: 5%;
+    margin: 10px;
+    color: aqua;
+}
+#title-one::before {
+  content: "";
+  position: absolute;
+  /* Adjust top, left, width, and height to match your content */
+  top: -5%;
+  left: 0;
+  width: 5%;
+  height: 110%;
+  background-color: darkslategrey ;
 
+}
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: "Open Sans";
+    font-size: medium;
+    padding: 1em 1em 1em 1em;
+    margin: 10px;
+    color: rgb(39, 34, 28);
+    background-color: rgb(187, 162, 162);
 }
-
+body{
+    background-color: rgb(253, 232, 204);
+}
 .logo {
     background-size: cover;
     background-image: url();
