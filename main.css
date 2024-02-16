@@ -52,9 +52,16 @@ body{
     background-color: rgb(253, 232, 204);
 }
 .logo {
+    border-radius: 50%;
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: red;
+    height: 80px ;
+    width: 80px;
+    margin: 0 auto;
+}
+.name{
+    position: relative;
+    text-align: center;
+    color: rgb(40, 22, 202);
 }
