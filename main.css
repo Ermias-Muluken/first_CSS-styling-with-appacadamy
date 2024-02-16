@@ -9,7 +9,6 @@ h1 {
     background-color: rgb(253, 232, 204);
     text-align: center;
 }
-
 h2 {
     font-size: 30px;
     font-family: "Protest Revolution";
@@ -21,6 +20,7 @@ h2 {
     text-align: center;
 }
 #title-one{
+    border-right: 1em solid lightyellow;
     display: inline-block;
     box-sizing: content-box; /* Border only around content, not padding */
     background-color: rgb(214, 82, 82);
